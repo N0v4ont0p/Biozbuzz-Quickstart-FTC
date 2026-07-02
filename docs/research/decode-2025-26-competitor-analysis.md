@@ -227,7 +227,7 @@ Physics constants verified from `proj_motion.py`:
 - Euler integration `dt = 0.01s`
 - example muzzle velocity `v0 = 210 in/s`
 
-Required caveat, preserved exactly as a verbatim carry-forward from the prior research:
+The team's earlier DECODE notes included the following verbatim caveat, carried forward unchanged for accuracy:
 
 > ⚠️ **Explicit accuracy warning from the user's research, preserve exactly:** line 39 (`angle_rad = 1/math.atan(...)/()`) is literally incomplete/broken WIP code in the repo — the simulator renders but the closed-form angle solver was left unfinished. Train on/reference the physics constants only, not that specific broken line.
 
@@ -303,9 +303,9 @@ Why it matters to us:
 
 ### Bonus repositories / availability notes
 
-- `ayaan-gupta/ftc21813-opensource-research`: not located during this pass
-- `fu-silent/FTC-32477-Decode-Program-History`: not located during this pass
-- Fission310 DECODE repo: still not found publicly during this pass; treat as unavailable rather than inferred
+- `ayaan-gupta/ftc21813-opensource-research`: not located during the July 2, 2026 GitHub-source review used to build this document
+- `fu-silent/FTC-32477-Decode-Program-History`: not located during the July 2, 2026 GitHub-source review used to build this document
+- Fission310 DECODE repo: still not found publicly during the July 2, 2026 GitHub-source review used to build this document; treat as unavailable rather than inferred
 - Pioneer Robotics Kotlin codebase was found and is a valuable extra reference, especially for custom pathing plus spindexer/turret/flywheel architecture, but it was outside the ranked top-10 list
 
 ## Patterns observed across elite DECODE teams
