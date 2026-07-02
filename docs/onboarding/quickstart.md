@@ -1,5 +1,7 @@
 # Team 19859 BIOBUZZ Quickstart
 
+Before touching the physical robot, read `/docs/hardware/bringup-and-calibration.md`. It covers the manual hardware checks and calibration work that cannot be verified by CI.
+
 ## 1) Install tooling
 1. Install Android Studio Ladybug (2024.2) or newer.
 2. Install the Android SDK components requested by the FTC project.
@@ -13,6 +15,7 @@
 ## 3) Connect robot and Panels
 1. Connect to the robot Wi-Fi network.
 2. Open Panels at `http://192.168.43.1:8001`.
+   This is a stock default; confirm it against the team's actual Control Hub network configuration instead of assuming it is always correct.
 3. Use Panels for live telemetry and tuning of Pedro/Limelight settings.
 
 ## 4) Command-based architecture (plain-English)
