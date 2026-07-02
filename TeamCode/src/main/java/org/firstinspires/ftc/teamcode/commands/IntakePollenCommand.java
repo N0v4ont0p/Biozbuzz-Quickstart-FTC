@@ -10,7 +10,7 @@ public class IntakePollenCommand extends SequentialCommandGroup {
 
     public IntakePollenCommand(IntakeSubsystem intakeSubsystem) {
         addCommands(
-                // Add intake lowering command here when the physical mechanism is finalized.
+                // Intake-lowering action is intentionally deferred until BIOBUZZ kickoff mechanism details are known.
                 new InstantCommand(intakeSubsystem::intake, intakeSubsystem),
                 new WaitUntilCommand(intakeSubsystem::hasPollen),
                 new InstantCommand(intakeSubsystem::stop, intakeSubsystem)

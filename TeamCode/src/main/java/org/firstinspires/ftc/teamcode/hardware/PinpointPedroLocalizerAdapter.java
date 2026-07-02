@@ -39,14 +39,7 @@ public class PinpointPedroLocalizerAdapter {
         if (!result.isValid()) {
             return;
         }
-        try {
-            Object pose2D = result.getBotpose().getClass().getMethod("toPose2D").invoke(result.getBotpose());
-            if (pose2D instanceof Pose2D) {
-                applyVisionPose((Pose2D) pose2D);
-            }
-        } catch (Exception ignored) {
-            // Keep Pinpoint pose when direct conversion is unavailable.
-        }
+        applyVisionPose(result.getBotpose().toPose2D());
     }
 
     public Pose getPose() {
