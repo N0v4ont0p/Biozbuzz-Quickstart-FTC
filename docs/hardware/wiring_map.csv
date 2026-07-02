@@ -1,0 +1,8 @@
+hub_name,port_number,device,subsystem,notes
+Control Hub,motor0,front_left,DrivetrainSubsystem,drive motor
+Control Hub,motor1,front_right,DrivetrainSubsystem,drive motor
+Control Hub,motor2,back_left,DrivetrainSubsystem,drive motor
+Control Hub,motor3,back_right,DrivetrainSubsystem,drive motor
+Control Hub,motor4,intake,IntakeSubsystem,pollen intake motor
+Control Hub,i2c0,pinpoint,DrivetrainSubsystem,goBILDA Pinpoint localization
+Control Hub,usb0,limelight,DrivetrainSubsystem/Limelight,AprilTag + pollen alignment pipeline
