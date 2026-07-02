@@ -70,7 +70,7 @@ Once real values are measured, commit them as their own small, clearly labeled c
 Typical workflow:
 
 1. Confirm the Control Hub can see the Limelight over USB-Ethernet.
-2. Open the Limelight web UI (typically `http://172.29.0.1` once connected through the Control Hub).
+2. Open the Limelight web UI (typically `http://172.29.0.1` once connected through the Control Hub). If that address does not respond, verify the actual USB-Ethernet address from the team's current Control Hub networking setup before proceeding.
 3. Verify that pipeline `0` is actually configured the way the team wants.
 4. Revisit that configuration after Kickoff once the real BIOBUZZ vision task is known (AprilTag-only, pollen alignment, or something else).
 
