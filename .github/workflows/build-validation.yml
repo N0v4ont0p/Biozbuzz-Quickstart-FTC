@@ -21,5 +21,15 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Build
-        run: ./gradlew build
+      - name: Cache Gradle packages
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Build (debug variant, unit tests, lint)
+        run: ./gradlew assembleDebug testDebugUnitTest lintDebug --stacktrace
