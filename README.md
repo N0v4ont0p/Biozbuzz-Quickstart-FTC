@@ -18,6 +18,7 @@ This repository is **based on FTCLib/FTCLib-Quickstart** (BSD-3-Clause-Clear lin
 - `TeamCode/src/main/java/org/firstinspires/ftc/teamcode/`
   - `commands/`, `subsystems/`, `hardware/`, `opmodes/`, `util/`
 - `docs/adr/` (including ADR 0001 and ADR 0002)
+- `docs/research/` (competitive research and architecture comparisons)
 - `docs/hardware/wiring_map.csv`
 - `docs/onboarding/quickstart.md`
 - `.github/workflows/build-validation.yml`
@@ -26,6 +27,7 @@ This repository is **based on FTCLib/FTCLib-Quickstart** (BSD-3-Clause-Clear lin
 - ADR template: `/docs/adr/template.md`
 - Trajectory decision: `/docs/adr/0001-trajectory-following.md`
 - Hardware abstraction decision: `/docs/adr/0002-hardware-abstraction-for-future-migration.md`
+- DECODE competitor research: `/docs/research/decode-2025-26-competitor-analysis.md`
 - Onboarding guide: `/docs/onboarding/quickstart.md`
 - Wiring map: `/docs/hardware/wiring_map.csv`
 

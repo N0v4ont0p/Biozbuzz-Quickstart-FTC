@@ -20,3 +20,10 @@
 - **CommandBase** classes express robot actions using subsystem methods.
 - **CommandScheduler** runs every loop and coordinates active commands safely.
 - OpModes wire hardware + subsystems + commands together, then schedule behaviors.
+
+## 5) Read the architecture and research docs
+Before changing major robot architecture, read:
+
+- `docs/adr/0001-trajectory-following.md`
+- `docs/adr/0002-hardware-abstraction-for-future-migration.md`
+- `docs/research/decode-2025-26-competitor-analysis.md`
