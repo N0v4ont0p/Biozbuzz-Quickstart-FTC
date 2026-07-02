@@ -231,6 +231,8 @@ The team's earlier DECODE notes included the following verbatim caveat, carried 
 
 > ⚠️ **Explicit accuracy warning from the user's research, preserve exactly:** line 39 (`angle_rad = 1/math.atan(...)/()`) is literally incomplete/broken WIP code in the repo — the simulator renders but the closed-form angle solver was left unfinished. Train on/reference the physics constants only, not that specific broken line.
 
+For our team's purposes, treat that as: use the published physics constants as reference material, but do not treat the unfinished line-39 solver as valid implementation guidance.
+
 Why it matters to us:
 
 - This repo is the best evidence in the set that elite teams were doing **offline ballistic tuning**, not just live trial-and-error
